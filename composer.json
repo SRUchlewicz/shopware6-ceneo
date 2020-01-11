@@ -1,0 +1,31 @@
+{
+    "name": "ruchlewicz/ceneo",
+    "description": "Ceneo Module for Shopware6",
+    "version": "1.0.0",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Sebastian Ruchlewicz"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.1.0.0-RC4",
+        "swag/i18n-polish": "2.1.1.0."
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Ruchlewicz\\RuchlewiczCeneo\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Ruchlewicz\\RuchlewiczCeneo\\RuchlewiczCeneo",
+        "copyright": "(c) by Sebastian Ruchlewicz",
+        "label": {
+            "en-GB": "Ceneo for Shopware 6",
+            "de-DE": "Ceneo für Shopware 6",
+            "pl-PL": "Ceneo dla Shopware 6"
+        },
+        "plugin-icon": "src/Resources/public/plugin.png"
+    }
+}
