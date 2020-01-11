@@ -9,17 +9,21 @@
         }
     ],
     "require": {
-        "shopware/core": "6.1.0.0-RC4",
-        "swag/i18n-polish": "2.1.1.0."
+        "shopware/core": "6.1.0.0-RC4"
     },
     "type": "shopware-platform-plugin",
     "autoload": {
         "psr-4": {
-            "Ruchlewicz\\RuchlewiczCeneo\\": "src/"
+            "Ruchlewicz\\Ceneo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ruchlewicz\\Ceneo\\Test\\": "tests/"
         }
     },
     "extra": {
-        "shopware-plugin-class": "Ruchlewicz\\RuchlewiczCeneo\\RuchlewiczCeneo",
+        "shopware-plugin-class": "Ruchlewicz\\Ceneo\\Ceneo",
         "copyright": "(c) by Sebastian Ruchlewicz",
         "label": {
             "en-GB": "Ceneo for Shopware 6",
