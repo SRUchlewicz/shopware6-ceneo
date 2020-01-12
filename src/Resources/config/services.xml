@@ -16,6 +16,7 @@
 
         <service id="Ruchlewicz\Ceneo\Util\CsvCreator">
             <argument type="service" id="product.repository" />
+            <argument type="service" id="kernel" />
         </service>
     </services>
 </container>

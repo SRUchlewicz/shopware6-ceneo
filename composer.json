@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "shopware/core": "6.1.0.0-RC4"
+        "shopware/core": "6.1.0.0-RC4",
+        "ext-xmlwriter": "*"
     },
     "type": "shopware-platform-plugin",
     "autoload": {
