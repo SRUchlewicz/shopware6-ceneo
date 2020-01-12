@@ -23,6 +23,9 @@
     <filter>
         <whitelist>
             <directory suffix=".php">./</directory>
+            <exclude>
+                <file>src/Ceneo.php</file>
+            </exclude>
         </whitelist>
     </filter>
 </phpunit>
